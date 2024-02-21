@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(255, 127, 246);
+}
+/* la clase se puede compartir dependiendo las propiedades,
+las basuicas pueden ser color, fopnt-size, font,family, entre otras.
+se le puede asignar una clase a una etiqueta y aplicar algun estilo y postriormente esa misma etiqueta 
+agregar otro estilo pero esta puede estar sola.
+*/
+.redirecciona {
+    color: rgb(183, 0, 255);
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paginaprincipal{
+    color: rgb(200, 215, 30);
+}
+.h1, :hover .redirecciona{
+    color: #f5dce1;
+    font-style: italic;
+    text-decoration: underline 4px rgb(87, 132, 159);
+}
